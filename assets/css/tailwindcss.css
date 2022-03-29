@@ -1398,23 +1398,36 @@ a, button {
 /* =========== hero =========== */
 
 .header_hero {
-  height: 800px;
-  object-fit: cover;
-  /* background-image: url(assets\images\bg-colour.png); */
+  height: 900px;
+  width: 100%;
+  /* content: ''; */
+  z-index: -10;
+  /* opacity: .9; */
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  background-size: cover;
+  /* background-color: #bee3f8;
+  background-color: rgba(190, 227, 248, var(--bg-opacity)); */
 }
+
 
 @media (max-width: 1400px) {
   .header_hero {
-    height: 750px;
-    /* background-image: url(assets\images\bg-colour.png);; */
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    z-index: -10;
   }
 }
 
 .hero_shape {
   /* opacity: 1; */
   position: absolute;
+  height: auto;
+  width: 100%;
   z-index: -10;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .shape_1 {
