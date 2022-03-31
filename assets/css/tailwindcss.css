@@ -1398,7 +1398,7 @@ a, button {
 /* =========== hero =========== */
 
 .header_hero {
-  height: 900px;
+  height: 700px;
   width: 100%;
   /* content: ''; */
   z-index: -10;
@@ -1414,20 +1414,11 @@ a, button {
 
 @media (max-width: 1400px) {
   .header_hero {
-    height: 800px;
+    height: 700px;
     width: 100%;
     background-size: cover;
     z-index: -10;
   }
-}
-
-.hero_shape {
-  /* opacity: 1; */
-  position: absolute;
-  height: auto;
-  width: 100%;
-  z-index: -10;
-  /* object-fit: cover; */
 }
 
 .shape_1 {
